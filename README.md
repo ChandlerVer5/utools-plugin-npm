@@ -1,11 +1,90 @@
-# Vue 3 + Typescript + Vite
+# npm 插件
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+快捷的查询 npm 库（npm helper）
 
-## Recommended IDE Setup
+![npm helper 插件](./examples/2020-06-18_173702.jpg)
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+使用了 vue + vant + typescript 进行项目开发
 
-## Type Support For `.vue` Imports in TS
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+# !!!注意⚠️!!!
+部分数据收藏在了自己的服务器（腾讯云开发）中，所以请修改源代码之后再使用该插件
+
+
+# 参考
+
+移植了 : https://hub.fastgit.org/fofolee/uTools-Manuals/tree/master/src 的一些功能为 Vue 组件!
+单词翻译部分：https://github.com/vst93/myDictionary-uToolsPlugin/
+
+# Bug
+
+1. 翻译点号会出现问题~
+2. 查看对应版本的npm库文件列表、对应文件的源码
+    https://hub.fastgit.org/jsdelivr/data.jsdelivr.com#list-package-files
+    https://data.jsdelivr.com/v1/package/npm/aimer@1.3.0
+    https://yarnpkg.com/package/aimer?files
+
+
+# TODO
+
+1. 页面缓存 -- ✅
+2. 目录显示跟随 -- ✅
+3. 启动页更改 -- ✅
+4. 输入框提示 -- ✅
+5. 搜索列表 上下按键选择 -- ✅
+6. 详情页面搜索 -- ✅
+7. 详情页面翻译 -- ✅
+8. esc 键关闭打开的源码窗口，或者点击其他处关闭 -- ✅
+9. 是否可以考虑记录一下最近的 10 个查询，好方便回找 -- ✅
+10. 增加下载包功能("https://r.cnpmjs.org/@techiediaries/ngx-textarea-autosize/download/@techiediaries/ngx-textarea-autosize-1.2.0.tgz") -- ✅·
+11. 增加收藏功能（腾讯云开发）-- ✅
+12. package.json 文件分析
+    1.  npm-describe、dependagraph、@nodesecure/scanner
+    2.  npm 列表展示，是否有新版本(check updates)，是否存在潜在的风险（GitHub [ Dependabot ](https://dependabot.com/) npm-audit？）
+    3. dependencies 依赖关系可视化
+13. 增加编辑窗口在线编辑，运行，通过在线 require，import 文件
+    https://runkit.com/docs/embed
+14. 复制代码区功能，维持原 markdown 格式
+
+
+# 数据来源：
+
+https://www.jsdocs.io/
+
+https://opensourcehub.io/
+
+https://packagephobia.com/result?p=%40material-ui%2Ficons%40next
+
+<!-- 搜索相关库 -->
+https://gitplanet.com/similar/xgplayer
+https://pkg.land/
+
+<!-- @cucumber/cucumber-expressions -->
+https://www.npmjs.com
+
+https://runkit.com/api/npm/info/sync-request
+
+https://npm.runkit.com/fs-extra
+
+https://yarnpkg.cn/?q=babel&p=1
+
+https://npm.devtool.tech/vue
+
+https://npm.io/search/axios
+
+https://www.jsdelivr.com/
+
+https://snyk.io/advisor/
+
+https://npms.io/search?q=%40angular
+
+https://api.github.com/repos/bitinn/node-fetch
+
+https://openbase.com/
+
+https://www.algolia.com/
+
+https://libraries.io/languages
+
+https://bundlephobia.com/package/angular
+
