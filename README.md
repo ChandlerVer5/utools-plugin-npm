@@ -57,6 +57,11 @@ https://packagephobia.com/result?p=%40material-ui%2Ficons%40next
 
 <!-- 搜索相关库 -->
 https://gitplanet.com/similar/xgplayer
+
+https://github.com/anvaka/npmgraph.an
+
+https://npmtrends.com/esbuild-vs-parcel-vs-rollup-vs-snowpack-vs-vite-vs-webpack
+
 https://pkg.land/
 
 <!-- @cucumber/cucumber-expressions -->
