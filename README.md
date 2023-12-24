@@ -41,7 +41,7 @@
 12. package.json 文件分析
     1.  npm-describe、dependagraph、@nodesecure/scanner
     2.  npm 列表展示，是否有新版本(check updates)，是否存在潜在的风险（GitHub [ Dependabot ](https://dependabot.com/) npm-audit？）
-    3. dependencies 依赖关系可视化
+    3. dependencies 依赖关系可视化 https://github.com/pahen/madge
 13. 增加编辑窗口在线编辑，运行，通过在线 require，import 文件
     https://runkit.com/docs/embed
 14. 复制代码区功能，维持原 markdown 格式
